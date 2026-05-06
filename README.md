@@ -1,2 +1,2 @@
 # pruebasunlu
-Repo de pruebas
+Ejercicios para practicar
