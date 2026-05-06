@@ -18,15 +18,21 @@ dia_mas_llovio = 0
 cant_max_lluvia = 0
 suma_promedio = 0
 
+
+
 for i in range(1,8):
-    mldelluvia = int(input(f'Ingresa los mililitros de lluvia del dia {i}: '))
+    mldelluvia = input(f'Ingresa los mililitros de lluvia del dia {i}: ')
+    while not mldelluvia.isdigit():
+        print('Error. Solo se permiten valores numericos en mililitros.')
+        mldelluvia = input(f'Ingresa los mililitros de lluvia del dia {i}: ')
+    mldelluvia = int(mldelluvia)
     if mldelluvia > cant_max_lluvia:
         cant_max_lluvia = mldelluvia
         dia_mas_llovio = i
     suma_promedio += mldelluvia
 
 promedio = suma_promedio / 7
-round(promedio, 2)
+round(promedio, 1)
 
 print(f'El promedio de los 7 dias es de {promedio}')
 print(f'El día de más precipitaciones fue el {dia_mas_llovio} con {cant_max_lluvia}ml')
