@@ -31,7 +31,7 @@ for i in range(1,8):
         dia_mas_llovio = i
     suma_promedio += mldelluvia
 
-promedio = suma_promedio / 7
+promedio = suma_promedio // 7
 round(promedio, 1)
 
 print(f'El promedio de los 7 dias es de {promedio}')
