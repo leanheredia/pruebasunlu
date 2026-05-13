@@ -88,7 +88,7 @@ while año != 0:
             print('Error. Solo se permiten digitos.')
         else:
             print('Error. El rango de usuario debe ir de 1 a 3.')
-        tipo_de_user = input('Ingresa el tipo de usuario (1-3): ')
+        tipo_de_user = input('Ingresa el tipo de usuario (1-3):')
     tipo_de_user = int(tipo_de_user)
     
     total_horas += cant_horas
