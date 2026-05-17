@@ -1,3 +1,4 @@
+
 num1 = int(input('Ingresa el primer lado para el triangulo: '))
 num2 = int(input('Ingresa el segundo lado para el triangulo: '))
 num3 = int(input('Ingresa el tercer lado para el triangulo: '))

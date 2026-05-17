@@ -9,7 +9,7 @@ personas_27_47 = 0
 personas_mas_48 = 0
 
 
-for i in range(3815):
+for i in range(3850):
     edad = int(input('Ingresa tu edad: '))
     dias_ia = int(input('Ingresa la cantidad de dias por semana que usas IA: '))
     if edad >= 16 and edad <= 26:
@@ -37,6 +37,8 @@ else:
     prom_mas_48 = 0
 
 #promedio mayor
+
+
 if prom_16_26 > prom_27_47 and prom_16_26 > prom_mas_48:
     rango_mayor = 'de 16 a 26'
 elif prom_16_26 == prom_27_47 and prom_16_26 == prom_mas_48:

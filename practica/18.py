@@ -70,3 +70,12 @@ print(16)
 
 
 '''
+
+a = 2
+b = 5
+c = 0
+
+while a <= b:
+    c = c + a
+    a = a + 1
+    print(c)
