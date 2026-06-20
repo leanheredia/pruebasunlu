@@ -4,7 +4,7 @@
 
 
 num_usuario = int(input('Ingresa un numero entero: '))
-factorial = 1
+factorial = 0
 
 for i in range(1, num_usuario + 1):
     factorial *= i
