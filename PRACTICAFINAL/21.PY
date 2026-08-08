@@ -22,17 +22,17 @@ def quitarprefijo(listarg, listuy, listbr):
 def repetidos(sinprefijoarg, sinprefijouy, sinprefijobr):
     lista_repetidos = []
     for codigoarg in sinprefijoarg:
-        en_listauy = False
-        en_listabr = False
+        igual_a_uy = False
+        igual_a_br = False
         for codigouy in sinprefijouy:
             if codigoarg == codigouy:
-                en_listauy = True
+                igual_a_uy = True
         for codigobr in sinprefijobr:
             if codigoarg == codigobr:
-                en_listabr = True
+                igual_a_br = True
 
 
-        if en_listauy == True and en_listabr == True:
+        if igual_a_uy == True and igual_a_br == True:
             lista_repetidos.append('L3-'+ codigoarg)
     return lista_repetidos
 

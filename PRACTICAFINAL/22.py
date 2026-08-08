@@ -20,7 +20,6 @@ def encriptar():
                     nombres_encriptados.append(nro_ascii)
                 else:
                     nombres_encriptados.append(nro_ascii + 6)
-
         lista_encriptados.append(nombres_encriptados)
         nombres = input('Ingresa el nombre del jugador: (FIN para terminar): ')
 
